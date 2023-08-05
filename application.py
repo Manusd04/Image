@@ -1,6 +1,4 @@
 from flask import Flask, render_template, request
-from flask_nav import Nav
-from flask_nav.elements import Navbar,View,Text,Link
 
 application = Flask(__name__, template_folder='templates',static_folder='static')
 
